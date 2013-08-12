@@ -1,0 +1,14 @@
+*kitchen.txt*  basic vim/kitchen integration
+
+Author:  Mark Cornick <https://github.com/markcornick>
+License: MIT license
+Repo:    https://github.com/markcornick/vim-kitchen
+
+COMMANDS                                        *kitchen*
+
+This command is only available if kitchen is in your PATH.
+
+                                                *kitchen-:Kitchen*
+:Kitchen [args]         Invoke an arbitrary kitchen command.
+
+ vim:tw=78:et:ft=help:norl:
