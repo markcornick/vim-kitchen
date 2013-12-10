@@ -7,7 +7,7 @@ endif
 let g:loaded_kitchen = 1
 
 function! s:commands(A, L, P)
-  return "console\nconverge\ncreate\ndestroy\ndriver\ndriver\ndriver\ndriver\nhelp\ninit\nlist\nlogin\nsetup\ntest\nverify\nversion"
+  return "console\nconverge\ncreate\ndestroy\ndiagnose\ndriver\nhelp\ninit\nlist\nlogin\nsetup\ntest\nverify\nversion"
 endfunction
 
 augroup kitchen
