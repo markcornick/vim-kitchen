@@ -1,5 +1,5 @@
 " kitchen.vim - basic vim/kitchen integration
-" Maintainer: Mark Cornick <https://bitbucket.org/markcornick>
+" Maintainer: Mark Cornick <https://github.com/markcornick>
 
 if exists("g:loaded_kitchen") || v:version < 700 || &cp || !executable('kitchen')
   finish
