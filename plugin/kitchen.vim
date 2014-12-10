@@ -7,7 +7,22 @@ endif
 let g:loaded_kitchen = 1
 
 function! s:commands(A, L, P)
-  return "console\nconverge\ncreate\ndestroy\ndiagnose\ndriver\nhelp\ninit\nlist\nlogin\nsetup\ntest\nverify\nversion"
+  return join([
+  \ "console",
+  \ "converge",
+  \ "create",
+  \ "destroy",
+  \ "diagnose",
+  \ "driver",
+  \ "help",
+  \ "init",
+  \ "list",
+  \ "login",
+  \ "setup",
+  \ "test",
+  \ "verify",
+  \ "version"
+  \ ], "\n")
 endfunction
 
 augroup kitchen
@@ -17,4 +32,3 @@ augroup kitchen
 augroup END
 
 " vim:set et sw=2:
-
