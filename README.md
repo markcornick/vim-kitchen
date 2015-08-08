@@ -1,3 +1,9 @@
+# Unmaintained
+
+I'm no longer using Vim regularly, and am not updating my various Vim
+plugins. Please contact me if you would like to take over maintenance
+of any or all of them. Thanks!
+
 # vim-kitchen
 
 This plugin adds a `:Kitchen` command that runs test-kitchen, with tab
